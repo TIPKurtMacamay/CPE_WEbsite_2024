@@ -43,10 +43,10 @@ const Faculty = () => {
 
       <Tabs>
         <Tab label="Program Chair">
-        <div className="grid grid-cols-1 md:w-[1530] mx-[10%]">
+        <div className="grid grid-cols-1 md:w-[1530] mx-[5%]">
         {/* Maam Venal */}
-        <div className="justify-center items-center md:items-start">
-          <div className="block md:flex my-10">
+        <div className="justify-center items-center md:items-start bg-[url('./assets/paperbg.png')]">
+          <div className="block md:flex my-10 px-14">
             <div className="flex justify-center items-center w-[265px]">
               <img className="h-full" src={MaamVenal} alt="" />
             </div>
@@ -236,18 +236,19 @@ const Faculty = () => {
         </Tab>
         <Tab label="Staff">
           {/* Maam Myco */}
-        <div className="justify-center items-center md:items-start">
-          <div className="block md:flex my-10">
-            <div className="flex justify-center items-center w-[265px]">
-              <img className="h-full" src={MaamMyco} alt="" />
-            </div>
-            <div className="ml-2 flex flex-col justify-center">
-              <h1 className="text-4xl font-bold">Ms. Myco Dimaya</h1>
-              <h2 className="text-xl text-[#008A3D]">Secretary</h2>
-              <div className="my-4">
-                <h3>Bachelor of Science in Computer Science</h3>
+        <div className='grid grid-cols-1 md:w-[1530] mx-[5%]'>
+          <div className="justify-center items-center md:items-start bg-[url('./assets/paperbg.png')]">
+            <div className="block md:flex my-10 px-14">
+              <div className="flex justify-center items-center w-[265px]">
+                <img className="h-full" src={MaamMyco} alt="" />
               </div>
-
+              <div className="ml-2 flex flex-col justify-center">
+                <h1 className="text-4xl font-bold">Ms. Myco Dimaya</h1>
+                <h2 className="text-xl text-[#008A3D]">Secretary</h2>
+                <div className="my-4">
+                  <h3>Bachelor of Science in Computer Science</h3>
+                </div>
+              </div>
             </div>
           </div>
         </div>

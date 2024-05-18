@@ -8,3 +8,67 @@
   font-family: "Poppins", sans-serif;
   ;
 }
+
+@layer base {
+  button {
+    @apply border py-2 px-3 rounded-full;
+  }
+
+  h1 {
+    @apply font-sans;
+  }
+  h2 {
+    @apply font-medium;
+  }
+
+  h3 {
+    @apply font-sans font-medium;
+  }
+  h4 {
+    @apply font-sans italic;
+  }
+
+  p {
+    @apply font-thin;
+  }
+
+  .clamp-title {
+    font-size: clamp(1rem, 3vw, 2rem);
+  }
+
+  .card {
+    @apply bg-white shadow-xl rounded-3xl md:m-auto p-2 size-[200px] md:size-[300px];
+  }
+
+  .icon {
+    @apply m-2;
+  }
+
+  button {
+    @apply rounded-sm;
+  }
+
+  .facultyCARD {
+    @apply bg-[url('./assets/paperbg.png')] w-full h-full p-10 block md:flex md:items-start;
+  }
+
+  .facultyCARD img {
+    @apply w-[200px] m-2;
+  }
+
+  .facultyCARD h1 {
+    @apply font-bold text-[32px];
+  }
+
+  .facultyCARD h3 {
+    @apply font-sans mt-2;
+  }
+
+  .facultyCARD h4 {
+    @apply font-sans mb-2;
+  }
+
+  .facultyCARD ul {
+    @apply list-disc ml-8;
+  }
+}
