@@ -5,6 +5,10 @@ import cpelogo from "../assets/cpelogo.png";
 import ssclogo from "../assets/ssclogo.png";
 import profhero from "../assets/profhero.png";
 import paperbg from "../assets/paperbg.png";
+import CHED1 from "../assets/ched.png";
+import PACUCOA1 from "../assets/pacucoa.png";
+import PTC1 from "../assets/ptc.png";
+import ABET1 from "../assets/abet.png";
 
 const Hero = () => {
   return (
@@ -75,13 +79,82 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Footer Section */}
-      <div className="bg-green-700 h-1 w-full py-2">
-      <div className="text-center py-4 bg-black text-white">
-        <h3 className="text-2xl font-semibold">
-          National and International Accreditations
-        </h3>
-      </div>
+      
+      <div className="mt-4 md:mt-0">
+        {/* Border */}
+        <div className="w-full bg-green-900 h-[10px]" />
+
+        {/* Title */}
+        <div className="w-full bg-black h-[50px] flex items-center">
+          <h1 className="text-white text-l text-wrap text-center md:text-2xl font-bold m-auto">
+            National and International Accreditations
+          </h1>
+        </div>
+
+        <div className="flex flex-col items-center">
+          <div className="bg-green-600 w-[80%] h-[2px] m-2 md:my-4" />
+          <p className="text-[10px] md:text-xs text-center w-[70%]">
+            Experience Computer Engineering education at its finest! The
+            Computer Engineering department at the Technological Insitute of the
+            Philippines - Quezon City ensures quality education that is
+            recognized locally and internationally.
+          </p>
+        </div>
+
+        {/* Accreditaions */}
+        <div>
+          <div className="items-center grid grid-row-3 md:grid-cols-3 gap-4">
+            <div className="flex items-center md:block">
+              <img className="card " src={CHED1} alt="" />
+              <div className="text-center mt-2 h-[90px]">
+                <h2>The Commission on Higher Education</h2>
+                <p className="text-sm mt-4 mx-8">
+                  Center of Excellence since 2015 Center of Development from
+                  2009 to 2014
+                </p>
+              </div>
+            </div>
+            <div className="flex items-center md:block">
+              <img className="card " src={PACUCOA1} alt="" />
+              <div className="text-center mt-2 h-[90px]">
+                <h2>Philippine Association of Colleges and Universities Commission
+                  on Accreditation</h2>
+                <p className="text-sm mt-4 mx-8">
+                  Level 4 Accreditation Accredited since 2014
+                </p>
+              </div>
+            </div>
+            <div className="flex items-center md:block">
+              <img className="card " src={PTC1} alt="" />
+              <div className="text-center mt-2 h-[90px]">
+                <h2>The Commission on Higher Education</h2>
+                <p className="text-sm mt-4 mx-8">
+                  Accredited since 2015
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Abet */}
+        <div className="my-12">
+          <div className="items-center object-contain md:grid grid-cols-2 gap-4">
+            <img className="mt-5" src={ABET1} alt="" />
+            <div>
+              <h1 className="text-2xl text-green-700 md:text-4xl">
+                International Accreditation
+              </h1>
+              <h2 className="text-sm md:text-l">Accredited by ABET since 2010</h2>
+              <p className="  mt-4 mr-10 text-justify text-xs md:text-sm">
+                What is ABET? "The Accreditation Board for Engineering and
+                Technology, Inc. is a non-governmental organization that
+                accredits post-secondary education programs in engineering,
+                engineering technology, computing, and applied and natural
+                sciences." (ABET.org)
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
