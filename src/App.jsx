@@ -6,6 +6,7 @@ import About from './components/About';
 import Faculty from './components/Faculty';
 import Research from './components/Research';
 import StudentOA from './components/StudentOA';
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/research" element={<Research />} />
         <Route path="/studentoa" element={<StudentOA />} />
       </Routes>
+      <Footer />
     </Router>
   );
 };

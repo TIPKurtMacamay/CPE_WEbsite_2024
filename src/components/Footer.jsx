@@ -1,8 +1,8 @@
 import React from "react";
-import FOOTERBG from "./assets/FOOTER BG.png";
-import PHONE from "./assets/telephone-fill.png"
-import ENVELOPE from "./assets/envelope-fill.png"
-import PINMAP from "./assets/pin-map-fill.png"
+import FOOTERBG from "../assets/FOOTER BG.png";
+import PHONE from "../assets/telephone-fill.png"
+import ENVELOPE from "../assets/envelope-fill.png"
+import PINMAP from "../assets/pin-map-fill.png"
 
 function Footer() {
   return (
