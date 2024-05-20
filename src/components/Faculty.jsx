@@ -188,7 +188,7 @@ const Faculty = () => {
         <div className="facultyCARD">
           <img src={MaamMenchie} alt="" />
           <div>
-            <h1>Engr. Verlyn V. Nojor</h1>
+            <h1>Engr. Menchie M. Rosales</h1>
 
             <h3>Doctor of Technology</h3>
             <h4>Technological University of the Philippines (ongoing)</h4>
