@@ -55,6 +55,7 @@ const Research = () => {
 
       {/* Researches */}
       <div className="Text grid grid-cols-1 md:grid-cols-2 gap-4 m-5">
+        {/*  */}
         <div className="researchBG">
           <div className="ml-4">
             <div className="m-1 bg-white p-4">
@@ -66,7 +67,8 @@ const Research = () => {
             </div>
           </div>
         </div>
-
+        {/*  */}
+        {/*  */}
         <div className="researchBG">
           <div className="ml-4">
             <div className="m-1 bg-white p-4">
@@ -78,7 +80,8 @@ const Research = () => {
             </div>
           </div>
         </div>
-
+        {/*  */}
+        {/*  */}
         <div className="researchBG">
           <div className="ml-4">
             <div className="m-1 bg-white p-4">
@@ -90,7 +93,8 @@ const Research = () => {
             </div>
           </div>
         </div>
-
+        {/*  */}
+        {/*  */}
         <div className="researchBG">
           <div className="ml-4">
             <div className="m-1 bg-white p-4">
@@ -102,7 +106,8 @@ const Research = () => {
             </div>
           </div>
         </div>
-
+        {/*  */}
+        {/*  */}
         <div className="researchBG">
           <div className="ml-4">
             <div className="m-1 bg-white p-4">
@@ -114,7 +119,8 @@ const Research = () => {
             </div>
           </div>
         </div>
-
+        {/*  */}
+        {/*  */}
         <div className="researchBG">
           <div className="ml-4">
             <div className="m-1 bg-white p-4">
@@ -126,7 +132,8 @@ const Research = () => {
             </div>
           </div>
         </div>
-
+        {/*  */}
+        {/*  */}
         <div className="researchBG">
           <div className="ml-4">
             <div className="m-1 bg-white p-4">
@@ -138,7 +145,8 @@ const Research = () => {
             </div>
           </div>
         </div>
-
+        {/*  */}
+        {/*  */}
         <div className="researchBG">
           <div className="ml-4">
             <div className="m-1 bg-white p-4">
@@ -150,6 +158,7 @@ const Research = () => {
             </div>
           </div>
         </div>
+        {/*  */}
       </div>
     </div>
   );
