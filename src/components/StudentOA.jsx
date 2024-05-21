@@ -1,6 +1,8 @@
-import React from 'react';
-import studentOAtBg from '../assets/studentOA-bg.png';
+import React from "react";
+import studentOAtBg from "../assets/studentOA-bg.png";
 import paperbg from "../assets/paperbg.png";
+import ICPEP from "../assets/ICpEP fb page.png";
+import CPESUMMIT from "../assets/cpesummit.jpg";
 
 const StudentOA = () => {
   return (
@@ -13,29 +15,121 @@ const StudentOA = () => {
           alt="Background"
         />
         <img
-          className="absolute top-0 left-0 h-full w-full object-cover"
+          className="absolute top-0 left-0 h-[550px] w-full object-cover"
           src={paperbg}
           alt="Paper Background"
         />
-        
+
         {/* Title */}
         <div className="absolute inset-0 flex flex-col justify-center items-center">
-          <div className="bg-black/10 rounded-2xl text-center p-4">
+          <div className="bg-black/10 rounded-2xl text-center p-4 glassmorphism">
             <h1 className="font-black text-3xl text-green-700 mb-2">
-                LIFE OF A CPE
+              LIFE OF A CPE
             </h1>
             <h3 className="font-medium text-sm">
-                STUDENT ORGANIZATION AND ACTIVITIES AS A COMPUTER ENGINEERING STUDENT 
+              STUDENT ORGANIZATION AND ACTIVITIES AS A COMPUTER ENGINEERING
+              STUDENT
             </h3>
           </div>
-          
+        </div>
+      </div>
+      {/* Border */}
+      <div className="w-full bg-green-900 h-[10px]" />
+
+      {/* Title */}
+      <div className="w-full bg-black h-[50px] flex items-center">
+        <h1 className="text-white text-l text-wrap text-center md:text-2xl font-bold m-auto">
+          STUDENT ORGANIZATION
+        </h1>
+      </div>
+
+      {/* contents */}
+      {/* ICPEP */}
+      <div className="">
+        <h1 className="text-center text-[24px] font-semibold my-[5%] mx-[10%] bg-black/10 glassmorphism">
+          ICpEP
+        </h1>
+        <div>
+          <img className="px-[5%] m-auto" src={ICPEP} alt="" />
+        </div>
+        <p className="my-[5%] mx-[10%]">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+          eaque molestiae? Blanditiis modi doloribus vero natus nobis labore
+          veniam tenetur, culpa molestiae, repudiandae maxime! Laborum sunt
+          minima obcaecati cumque doloribus sequi quos molestiae doloremque
+          exercitationem, cum tempora reprehenderit necessitatibus laboriosam,
+          ex deserunt error totam recusandae. Adipisci laboriosam atque optio
+          error blanditiis hic incidunt officiis saepe quaerat inventore,
+          recusandae quisquam placeat exercitationem. Fugit suscipit laborum
+          placeat dolorum minima ex officia, cum magni possimus? Earum
+          laboriosam nulla nostrum ea. Consequatur dolor officiis iusto vel sunt
+          et dolorem, natus nihil itaque necessitatibus eum beatae accusamus
+          optio doloribus hic, aut voluptatibus. Hic, tempore eligendi!
+        </p>
+        <div>
+          <p className="text-center my-[5%] mx-[10%] font-semibold">
+            Visit their Facebook page{" "}
+            <a
+              href="https://web.facebook.com/icpep.se.tipqc"
+              className="text-blue-500 underline"
+              target="_blank"
+            >
+              here
+            </a>
+            .
+          </p>
         </div>
       </div>
 
-      
+      {/* Border */}
+      <div className="w-full bg-green-900 h-[10px]" />
 
-      
-
+      {/* Title */}
+      <div className="w-full bg-black h-[50px] flex items-center">
+        <h1 className="text-white text-l text-wrap text-center md:text-2xl font-bold m-auto">
+          STUDENT ACTIVITIES
+        </h1>
+      </div>
+      {/* contents */}
+      {/* CPESUMMIT */}
+      <div className="">
+        <h1 className="text-center text-[24px] font-semibold my-[5%] mx-[10%] bg-black/10 glassmorphism">
+          CPE Summit
+        </h1>
+        <div>
+          <img className="px-[5%] m-auto" src={CPESUMMIT} alt="" />
+        </div>
+        <p className="my-[5%] mx-[10%]">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+          eaque molestiae? Blanditiis modi doloribus vero natus nobis labore
+          veniam tenetur, culpa molestiae, repudiandae maxime! Laborum sunt
+          minima obcaecati cumque doloribus sequi quos molestiae doloremque
+          exercitationem, cum tempora reprehenderit necessitatibus laboriosam,
+          ex deserunt error totam recusandae. Adipisci laboriosam atque optio
+          error blanditiis hic incidunt officiis saepe quaerat inventore,
+          recusandae quisquam placeat exercitationem. Fugit suscipit laborum
+          placeat dolorum minima ex officia, cum magni possimus? Earum
+          laboriosam nulla nostrum ea. Consequatur dolor officiis iusto vel sunt
+          et dolorem, natus nihil itaque necessitatibus eum beatae accusamus
+          optio doloribus hic, aut voluptatibus. Hic, tempore eligendi!
+        </p>
+        <div>
+          <p className="text-center my-[5%] mx-[10%] font-semibold">
+            Visit the CPE Facebook page{" "}
+            <a
+              href="https://web.facebook.com/watch/?v=835257095296729&ref=sharing"
+              className="text-blue-500 underline"
+              target="_blank"
+            >
+              here
+            </a>
+            {" "}
+            to know more
+            .
+          </p>
+        </div>
+      </div>
+      <div>CPE Days</div>
     </div>
   );
 };

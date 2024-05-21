@@ -20,7 +20,7 @@ const Research = () => {
 
         {/* Title */}
         <div className="absolute inset-0 flex flex-col justify-center items-center">
-          <div className="bg-black/10 rounded-2xl text-center p-4">
+          <div className="bg-black/10 rounded-2xl text-center p-4 glassmorphism">
             <h1 className="font-black text-3xl text-green-700 mb-2">
               RESEARCH
             </h1>

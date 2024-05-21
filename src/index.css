@@ -6,91 +6,76 @@
 
 :root {
   font-family: "Poppins", sans-serif;
-  ;
 }
 
 @layer base {
   h1 {
-     
+    /* Custom styles for h1 */
   }
   h2 {
     @apply font-medium;
   }
-
   h3 {
-    @apply  font-medium;
+    @apply font-medium;
   }
   h4 {
     @apply italic;
   }
-
   p {
     @apply font-thin;
   }
-
   .clamp-title {
     font-size: clamp(1rem, 3vw, 2rem);
   }
-
   .card {
     @apply bg-white shadow-xl rounded-3xl md:m-auto p-2 size-[200px] md:size-[300px];
   }
-
   .icon {
     @apply m-2;
   }
-
   button {
     @apply rounded-sm;
   }
-
   .facultyCARD {
     @apply bg-[url('./assets/paperbg.png')] w-full h-full p-10 block md:flex md:items-start;
   }
-
   .facultyCARD img {
     @apply w-[200px] m-2;
   }
-
   .facultyCARD h1 {
     @apply font-bold text-[32px];
   }
-
   .facultyCARD h3 {
     @apply font-sans mt-2;
   }
-
   .facultyCARD h4 {
     @apply font-sans mb-2;
   }
-
   .facultyCARD ul {
     @apply list-disc ml-8;
   }
-
   .navbarbutton {
-    @apply inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white
+    @apply inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white;
   }
-
   .navbarlink {
-    @apply text-gray-300 hover:bg-gray-600 hover:text-white px-3 py-2 rounded-md text-sm font-medium
+    @apply text-gray-300 hover:bg-gray-600 hover:text-white px-3 py-2 rounded-md text-sm font-medium;
   }
-
   .navbarmobilelink {
-    @apply text-gray-300 hover:bg-gray-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium
+    @apply text-gray-300 hover:bg-gray-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium;
   }
-
   .Text {
-    @apply bg-[]
+    @apply bg-[];
   }
   .Text h1 {
-    @apply font-bold
+    @apply font-bold;
   }
   .Text p {
-    @apply font-thin text-gray-400
+    @apply font-thin text-gray-400;
   }
-
   .researchBG {
-    @apply bg-[#008A3D] rounded-sm
+    @apply bg-[#008A3D] rounded-sm;
+  }
+  .glassmorphism {
+    @apply rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-0;
   }
 }
