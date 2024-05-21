@@ -10,22 +10,18 @@
 }
 
 @layer base {
-  button {
-    @apply border py-2 px-3 rounded-full;
-  }
-
   h1 {
-    @apply font-sans;
+     
   }
   h2 {
     @apply font-medium;
   }
 
   h3 {
-    @apply font-sans font-medium;
+    @apply  font-medium;
   }
   h4 {
-    @apply font-sans italic;
+    @apply italic;
   }
 
   p {
@@ -82,5 +78,19 @@
 
   .navbarmobilelink {
     @apply text-gray-300 hover:bg-gray-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium
+  }
+
+  .Text {
+    @apply bg-[]
+  }
+  .Text h1 {
+    @apply font-bold
+  }
+  .Text p {
+    @apply font-thin text-gray-400
+  }
+
+  .researchBG {
+    @apply bg-[#008A3D] rounded-sm
   }
 }
