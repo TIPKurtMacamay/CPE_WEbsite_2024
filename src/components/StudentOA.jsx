@@ -3,6 +3,18 @@ import studentOAtBg from "../assets/studentOA-bg.png";
 import paperbg from "../assets/paperbg.png";
 import ICPEP from "../assets/ICpEP fb page.png";
 import CPESUMMIT from "../assets/cpesummit.jpg";
+import PDE_OPENING from "../assets/cpe_summit/PDE_opening.jpg"
+import PDE_exhibit1 from "../assets/cpe_summit/PDE_exhibit1.jpg"
+import PDE_exhibit2 from "../assets/cpe_summit/PDE_exhibit2.jpg"
+import PDE_exhibit5 from "../assets/cpe_summit/PDE_exhibit5.jpg"
+import PDE_exhibit6 from "../assets/cpe_summit/PDE_exhibit6.jpg"
+import sumobot3 from "../assets/cpe_summit/Sumobot3.jpg"
+import sumobot12 from "../assets/cpe_summit/Sumobot12.jpg"
+import sumobot9 from "../assets/cpe_summit/Sumobot9.jpg"
+import sumobot10 from "../assets/cpe_summit/Sumobot10.jpg"
+import sumobot11 from "../assets/cpe_summit/Sumobot11.jpg"
+import profs1 from "../assets/cpe_summit/profs1.jpg"
+
 
 const StudentOA = () => {
   return (
@@ -122,13 +134,135 @@ const StudentOA = () => {
               target="_blank"
             >
               here
-            </a>
-            {" "}
-            to know more
-            .
+            </a>{" "}
+            to know more .
           </p>
         </div>
       </div>
+      {/*  */}
+      {/* Project Design Exhibit */}
+      <div className="max-w-[1400px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4">
+        {/* left side */}
+        <div className="grid grid-cols-2 grid-rows-6 h-[80vh]">
+          <img
+            className="row-span-3 object-cover w-full h-full p-2"
+            src={PDE_OPENING}
+            alt=""
+          />
+          <img
+            className="row-span-2 object-cover w-full h-full p-2"
+            src={PDE_exhibit1}
+            alt=""
+          />
+          <img
+            className="row-span-2 object-cover w-full h-full p-2"
+            src={PDE_exhibit2}
+            alt=""
+          />
+          <img
+            className="row-span-3 object-cover w-full h-full p-2"
+            src={PDE_exhibit6}
+            alt=""
+          />
+          <img
+            className="row-span-2 object-cover w-full h-full p-2"
+            src={PDE_exhibit5}
+            alt="/"
+          />
+        </div>
+        {/* right side */}
+        <div className="flex flex-col h-full justify-center">
+          <h3 className="text-4xl md:text-5xl font-bold">
+            Project Design Exhibit
+          </h3>
+          <p className="text-2xl py-6">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi,
+            temporibus!
+          </p>
+          <p className="pb-6">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam
+            sapiente, dolores tempora quae, repellendus labore, delectus
+            repellat earum nulla optio fugiat facilis nobis velit! Dignissimos
+            corporis ut odio harum totam?
+          </p>
+          <div>
+            <p className="text-center my-[5%] mx-[10%] font-semibold">
+              Visit the CPE Facebook page{" "}
+              <a
+                href="https://web.facebook.com/watch/?v=835257095296729&ref=sharing"
+                className="text-blue-500 underline"
+                target="_blank"
+              >
+                here
+              </a>{" "}
+              to know more .
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Sumobot Competition */}
+      <div className="max-w-[1400px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4">
+        {/* left side */}
+        <div className="grid grid-cols-2 grid-rows-6 h-[80vh]">
+          <img
+            className="row-span-3 object-cover w-full h-full p-2"
+            src={sumobot3}
+            alt=""
+          />
+          <img
+            className="row-span-2 object-cover w-full h-full p-2"
+          src={sumobot12}
+            alt=""
+          />
+          <img
+            className="row-span-2 object-cover w-full h-full p-2"
+            src={sumobot9}
+            alt=""
+          />
+          <img
+            className="row-span-3 object-cover w-full h-full p-2"
+            src={sumobot11}
+            alt=""
+          />
+          <img
+            className="row-span-2 object-cover w-full h-full p-2"
+            src={sumobot10}
+            alt=""
+          />
+        </div>
+        {/* right side */}
+        <div className="flex flex-col h-full justify-center">
+          <h3 className="text-4xl md:text-5xl font-bold">
+            Sumobot Competition
+          </h3>
+          <p className="text-2xl py-6">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi,
+            temporibus!
+          </p>
+          <p className="pb-6">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam
+            sapiente, dolores tempora quae, repellendus labore, delectus
+            repellat earum nulla optio fugiat facilis nobis velit! Dignissimos
+            corporis ut odio harum totam?
+          </p>
+          <div>
+            <p className="text-center my-[5%] mx-[10%] font-semibold">
+              Visit the CPE Facebook page{" "}
+              <a
+                href="https://web.facebook.com/watch/?v=835257095296729&ref=sharing"
+                className="text-blue-500 underline"
+                target="_blank"
+              >
+                here
+              </a>{" "}
+              to know more .
+            </p>
+          </div>
+        </div>
+      </div>
+      {/*  */}
+
       <div>CPE Days</div>
     </div>
   );
