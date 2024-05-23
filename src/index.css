@@ -78,4 +78,8 @@
   .glassmorphism {
     @apply rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-0;
   }
+
+  .photogrid {
+    @apply object-cover w-full h-full bg-gray-200 rounded-xl;
+  }
 }

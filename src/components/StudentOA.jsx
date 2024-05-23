@@ -61,8 +61,8 @@ const StudentOA = () => {
         <h1 className="text-center text-[24px] font-semibold my-[5%] mx-[10%] bg-black/10 glassmorphism">
           ICpEP
         </h1>
-        <div>
-          <img className="px-[5%] m-auto" src={ICPEP} alt="" />
+        <div className="px-[5%]">
+          <img className="m-auto rounded-xl" src={ICPEP} alt="" />
         </div>
         <p className="my-[5%] mx-[10%]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
@@ -108,8 +108,8 @@ const StudentOA = () => {
         <h1 className="text-center text-[24px] font-semibold my-[5%] mx-[10%] bg-black/10 glassmorphism">
           CPE Summit
         </h1>
-        <div>
-          <img className="px-[5%] m-auto" src={CPESUMMIT} alt="" />
+        <div className="px-[5%]">
+          <img className="m-auto rounded-xl" src={CPESUMMIT} alt="" />
         </div>
         <p className="my-[5%] mx-[10%]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
@@ -143,29 +143,29 @@ const StudentOA = () => {
       {/* Project Design Exhibit */}
       <div className="max-w-[1400px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4">
         {/* left side */}
-        <div className="grid grid-cols-2 grid-rows-6 h-[80vh]">
+        <div className="grid grid-cols-2 grid-rows-6 h-[80vh] gap-2 p-2 bg-gray-200 glassmorphism">
           <img
-            className="row-span-3 object-cover w-full h-full p-2"
+            className="row-span-3 photogrid"
             src={PDE_OPENING}
             alt=""
           />
           <img
-            className="row-span-2 object-cover w-full h-full p-2"
+            className="row-span-2 photogrid"
             src={PDE_exhibit1}
             alt=""
           />
           <img
-            className="row-span-2 object-cover w-full h-full p-2"
+            className="row-span-2 photogrid"
             src={PDE_exhibit2}
             alt=""
           />
           <img
-            className="row-span-3 object-cover w-full h-full p-2"
+            className="row-span-3 photogrid"
             src={PDE_exhibit6}
             alt=""
           />
           <img
-            className="row-span-2 object-cover w-full h-full p-2"
+            className="row-span-2 photogrid"
             src={PDE_exhibit5}
             alt="/"
           />
@@ -204,29 +204,29 @@ const StudentOA = () => {
       {/* Sumobot Competition */}
       <div className="max-w-[1400px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4">
         {/* left side */}
-        <div className="grid grid-cols-2 grid-rows-6 h-[80vh]">
+        <div className="grid grid-cols-2 grid-rows-6 h-[80vh] gap-2 p-2 bg-gray-200 glassmorphism">
           <img
-            className="row-span-3 object-cover w-full h-full p-2"
+            className="row-span-3 photogrid"
             src={sumobot3}
             alt=""
           />
           <img
-            className="row-span-2 object-cover w-full h-full p-2"
+            className="row-span-2 photogrid"
           src={sumobot12}
             alt=""
           />
           <img
-            className="row-span-2 object-cover w-full h-full p-2"
+            className="row-span-2 photogrid"
             src={sumobot9}
             alt=""
           />
           <img
-            className="row-span-3 object-cover w-full h-full p-2"
+            className="row-span-3 photogrid"
             src={sumobot11}
             alt=""
           />
           <img
-            className="row-span-2 object-cover w-full h-full p-2"
+            className="row-span-2 photogrid"
             src={sumobot10}
             alt=""
           />
