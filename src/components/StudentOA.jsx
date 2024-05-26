@@ -262,8 +262,7 @@ const StudentOA = () => {
         </div>
       </div>
       {/*  */}
-
-      <div>CPE Days</div>
+      {/* <div>CPE Days</div> */}
     </div>
   );
 };
