@@ -35,6 +35,10 @@ git push origin final-integration
 ## Version
 
 ```plaintext
+node -v
+```
+
+```plaintext
 user@ C:\Users\user
 └─┬ react-router-dom@6.23.1
 ├─┬ react-dom@18.3.1
