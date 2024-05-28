@@ -5,6 +5,6 @@ export default {
     transform: {
       '^.+\\.jsx?$': 'babel-jest'
     },
-    setupFilesAfterEnv: ['<rootDir>/setupTests.js']
+    
   };
   
