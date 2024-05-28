@@ -33,7 +33,7 @@ const Research = () => {
 
       {/* Bottom Part */}
       <div className=" py-20 text-left text-gray-700 pl-20 pr-20 mb-20">
-        <p>
+        <h6>
           Welcome to our digital repository of groundbreaking research, crafted
           by the ingenious minds of computer engineering students. Dive into the
           realm where innovation meets ingenuity, as we showcase a myriad of
@@ -41,16 +41,16 @@ const Research = () => {
           intelligence to cybersecurity, from hardware design to software
           development, our students have delved into every facet of the
           computing world to unravel its mysteries and unlock its potential.
-        </p>
+        </h6>
         <br />
-        <p>
+        <h6>
           In this virtual hub of exploration and discovery, you'll find a
           collection of projects that not only demonstrate technical prowess but
           also embody a spirit of creativity and problem-solving. Each research
           endeavor represents a journey of exploration, where students have
           harnessed their knowledge, skills, and passion to address real-world
           challenges and pioneer novel solutions.{" "}
-        </p>
+        </h6>
       </div>
 
       {/* Researches */}
@@ -63,7 +63,7 @@ const Research = () => {
                 Design of an Augmented Reality-based Learning Simulation for
                 Individuals with Dyscalculia
               </h1>
-              <p>A.Y. 2023 2024</p>
+              <h7>A.Y. 2023 2024</h7>
             </div>
           </div>
         </div>
@@ -76,7 +76,7 @@ const Research = () => {
                 Design of an Augmented Reality-based Learning Simulation for
                 Individuals with Dyscalculia
               </h1>
-              <p>A.Y. 2023 2024</p>
+              <h7>A.Y. 2023 2024</h7>
             </div>
           </div>
         </div>
@@ -89,7 +89,7 @@ const Research = () => {
                 Design of an Augmented Reality-based Learning Simulation for
                 Individuals with Dyscalculia
               </h1>
-              <p>A.Y. 2023 2024</p>
+              <h7>A.Y. 2023 2024</h7>
             </div>
           </div>
         </div>
@@ -102,7 +102,7 @@ const Research = () => {
                 Design of an Augmented Reality-based Learning Simulation for
                 Individuals with Dyscalculia
               </h1>
-              <p>A.Y. 2023 2024</p>
+              <h7>A.Y. 2023 2024</h7>
             </div>
           </div>
         </div>
@@ -115,7 +115,7 @@ const Research = () => {
                 Design of an Augmented Reality-based Learning Simulation for
                 Individuals with Dyscalculia
               </h1>
-              <p>A.Y. 2023 2024</p>
+              <h7>A.Y. 2023 2024</h7>
             </div>
           </div>
         </div>
@@ -128,7 +128,7 @@ const Research = () => {
                 Design of an Augmented Reality-based Learning Simulation for
                 Individuals with Dyscalculia
               </h1>
-              <p>A.Y. 2023 2024</p>
+              <h7>A.Y. 2023 2024</h7>
             </div>
           </div>
         </div>
@@ -141,7 +141,7 @@ const Research = () => {
                 Design of an Augmented Reality-based Learning Simulation for
                 Individuals with Dyscalculia
               </h1>
-              <p>A.Y. 2023 2024</p>
+              <h7>A.Y. 2023 2024</h7>
             </div>
           </div>
         </div>
@@ -154,7 +154,7 @@ const Research = () => {
                 Design of an Augmented Reality-based Learning Simulation for
                 Individuals with Dyscalculia
               </h1>
-              <p>A.Y. 2023 2024</p>
+              <h7>A.Y. 2023 2024</h7>
             </div>
           </div>
         </div>

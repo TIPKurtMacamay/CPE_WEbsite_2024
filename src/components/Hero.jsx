@@ -59,7 +59,7 @@ const Hero = () => {
           {/* Text */}
           <div className="md:w-1/2 p-4">
             <div className="bg-white p-4 rounded-xl shadow-lg">
-              <p className="text-lg text-gray-700 text-justify">
+              <h6 className="text-lg text-gray-700 text-justify">
                 Computer Engineering is a profession that applies engineering
                 principles and methodologies in the analysis, design,
                 implementation and management of hardware, software and the
@@ -67,7 +67,7 @@ const Hero = () => {
                 hardware, system development and design, microelectronics and
                 embedded systems, data communication and network administration,
                 and software development and design (source: tip.edu.ph).
-              </p>
+              </h6>
             </div>
           </div>
           {/* Pictures Slider */}
@@ -93,12 +93,12 @@ const Hero = () => {
 
         <div className="flex flex-col items-center">
           <div className="bg-green-600 w-[80%] h-[2px] m-2 md:my-4" />
-          <p className="text-[10px] md:text-xs text-center w-[70%]">
+          <h7 className="text-[10px] md:text-xs text-center w-[70%]">
             Experience Computer Engineering education at its finest! The
             Computer Engineering department at the Technological Insitute of the
             Philippines - Quezon City ensures quality education that is
             recognized locally and internationally.
-          </p>
+          </h7>
         </div>
 
         {/* Accreditaions */}
@@ -108,10 +108,10 @@ const Hero = () => {
               <img className="card " src={CHED1} alt="" />
               <div className="text-center mt-2 h-[90px]">
                 <h2>The Commission on Higher Education</h2>
-                <p className="text-sm mt-4 mx-8">
+                <h7 className="text-sm mt-4 mx-8">
                   Center of Excellence since 2015 Center of Development from
                   2009 to 2014
-                </p>
+                </h7>
               </div>
             </div>
             <div className="flex items-center md:block">
@@ -119,18 +119,18 @@ const Hero = () => {
               <div className="text-center mt-2 h-[90px]">
                 <h2>Philippine Association of Colleges and Universities Commission
                   on Accreditation</h2>
-                <p className="text-sm mt-4 mx-8">
+                <h7 className="text-sm mt-4 mx-8">
                   Level 4 Accreditation Accredited since 2014
-                </p>
+                </h7>
               </div>
             </div>
             <div className="flex items-center md:block">
               <img className="card " src={PTC1} alt="" />
               <div className="text-center mt-2 h-[90px]">
                 <h2>The Commission on Higher Education</h2>
-                <p className="text-sm mt-4 mx-8">
+                <h7 className="text-sm mt-4 mx-8">
                   Accredited since 2015
-                </p>
+                </h7>
               </div>
             </div>
           </div>
@@ -138,20 +138,20 @@ const Hero = () => {
 
         {/* Abet */}
         <div className="my-12">
-          <div className="items-center object-contain md:grid grid-cols-2 gap-4">
-            <img className="mt-5" src={ABET1} alt="" />
+          <div className="items-center object-contain md:grid grid-cols-2 gap-4 ml-10">
+            <img className="mt-5 " src={ABET1} alt="" />
             <div>
               <h1 className="text-2xl text-green-700 md:text-4xl">
                 International Accreditation
               </h1>
               <h2 className="text-sm md:text-l">Accredited by ABET since 2010</h2>
-              <p className="  mt-4 mr-10 text-justify text-xs md:text-sm">
+              <h7 className="  mt-4 mr-10 text-justify text-xs md:text-sm">
                 What is ABET? "The Accreditation Board for Engineering and
                 Technology, Inc. is a non-governmental organization that
                 accredits post-secondary education programs in engineering,
                 engineering technology, computing, and applied and natural
                 sciences." (ABET.org)
-              </p>
+              </h7>
             </div>
           </div>
         </div>
