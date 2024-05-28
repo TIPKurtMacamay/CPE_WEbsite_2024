@@ -1,0 +1,20 @@
+name: CI
+
+on:
+  push:
+    branches: [ final-integration ]
+  pull_request:
+    branches: [ final-integration ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Run Jest tests
+      run: npm test
