@@ -2,7 +2,7 @@
 
 Welcome to the Computer Engineering Department website, where  [React](https://react.dev/learn/start-a-new-react-project) and [Tailwind CSS](https://tailwindcss.com/docs/installation) converge to deliver a seamless user experience. Explore our innovative curriculum, cutting-edge research, and dynamic community events. Dive into the future of computer engineering with us.
 
-#### Default and latest branch - final-integration
+#### Default and latest branch  (final-integration)
 
 ## How to clone
 
