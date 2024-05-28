@@ -1,4 +1,3 @@
-import React from "react";
 import researchBg from "../assets/research-bg.png";
 import paperbg from "../assets/paperbg.png";
 
@@ -44,7 +43,7 @@ const Research = () => {
         </h6>
         <br />
         <h6>
-          In this virtual hub of exploration and discovery, you'll find a
+          In this virtual hub of exploration and discovery, you ll find a
           collection of projects that not only demonstrate technical prowess but
           also embody a spirit of creativity and problem-solving. Each research
           endeavor represents a journey of exploration, where students have
