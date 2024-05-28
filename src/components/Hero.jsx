@@ -1,3 +1,4 @@
+import React from "react";
 import heroBG from "../assets/heroBG.png";
 import tiplogo from "../assets/tiplogo.png";
 import cpelogo from "../assets/cpelogo.png";
@@ -145,11 +146,11 @@ const Hero = () => {
               </h1>
               <h2 className="text-sm md:text-l">Accredited by ABET since 2010</h2>
               <h7 className="  mt-4 mr-10 text-justify text-xs md:text-sm">
-                What is ABET? The Accreditation Board for Engineering and
+                What is ABET? "The Accreditation Board for Engineering and
                 Technology, Inc. is a non-governmental organization that
                 accredits post-secondary education programs in engineering,
                 engineering technology, computing, and applied and natural
-                sciences. (ABET.org)
+                sciences." (ABET.org)
               </h7>
             </div>
           </div>

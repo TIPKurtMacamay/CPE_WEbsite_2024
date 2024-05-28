@@ -1,4 +1,4 @@
-
+import React from 'react';
 import aboutBg from '../assets/About-bg.png';
 import paperbg from "../assets/paperbg.png";
 

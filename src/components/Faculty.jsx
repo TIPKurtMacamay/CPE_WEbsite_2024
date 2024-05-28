@@ -1,3 +1,4 @@
+import React from 'react';
 import facultybg from '../assets/profhero.png';
 import paperbg from "../assets/paperbg.png";
 import { Tabs, Tab } from './Tabs';
