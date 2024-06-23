@@ -6,6 +6,9 @@ import About from './components/About';
 import Faculty from './components/Faculty';
 import Research from './components/Research';
 import StudentOA from './components/StudentOA';
+import StudentAchievers from './components/StudentAchievers';
+import Alumni from './components/Alumni';
+import Community from './components/Community';
 import Footer from './components/Footer'
 
 const App = () => {
@@ -18,6 +21,9 @@ const App = () => {
         <Route path="/faculty" element={<Faculty />} />
         <Route path="/research" element={<Research />} />
         <Route path="/studentoa" element={<StudentOA />} />
+        <Route path="/studentachievers" element={<StudentAchievers />} />
+        <Route path="/alumni" element={<Alumni />} />
+        <Route path="/community" element={<Community />} />
       </Routes>
       <Footer />
     </Router>

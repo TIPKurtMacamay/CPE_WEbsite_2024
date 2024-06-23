@@ -1,56 +1,47 @@
-import React from "react";
-import studentOAtBg from "../assets/studentOA-bg.png";
+import React from 'react';
+import aboutBg from '../assets/alumni-bg.jpg';
 import paperbg from "../assets/paperbg.png";
-import icpep from "../assets/ICpEP-bg.png";
 
-
-const StudentOA = () => {
+const Alumni = () => {
   return (
     <div>
       {/* Top Part */}
       <div className="relative">
         <img
           className="w-full h-[550px] object-cover"
-          src={studentOAtBg}
+          src={aboutBg}
           alt="Background"
         />
         <img
-          className="absolute top-0 left-0 h-[550px] w-full object-cover"
+          className="absolute top-0 left-0 h-full w-full object-cover"
           src={paperbg}
           alt="Paper Background"
         />
-
+        
         {/* Title */}
         <div className="absolute inset-0 flex flex-col justify-center items-center">
           <div className="bg-black/10 rounded-2xl text-center p-4 glassmorphism">
             <h1 className="font-black text-3xl text-green-700 mb-2">
-              LIFE OF A CPE
+              ALUMNI
             </h1>
             <h3 className="font-medium text-sm">
-              STUDENT ORGANIZATIONS AS A COMPUTER ENGINEERING STUDENT
+              ALUMNI ASSISTANCE - CONNECT WITH US
             </h3>
           </div>
+          
         </div>
       </div>
-      {/* Border */}
-      <div className="w-full bg-green-900 h-[10px]" />
 
-      {/* Title */}
-      <div className="w-full bg-black h-[50px] flex items-center">
-        <h1 className="text-white text-l text-wrap text-center md:text-2xl font-bold m-auto">
-          STUDENT ORGANIZATION
-        </h1>
+      <div className="bg-green-700 h-1 w-full py-2">
+      <div className="text-center py-4 bg-black text-white">
+        <h3 className="text-2xl font-semibold">
+          ALUMNI DETAILS
+        </h3>
       </div>
-      <div className="container mx-auto px-2 py-8">
-      {/* Column 1 Upper*/}
-      <div className="flex flex-col items-left text-left p-4 border rounded-lg shadow-lg">
-          <img
-            src={icpep}
-            alt="Placeholder"
-            className="mb-4 w-full h-auto"
-          />
-          <h2 className="text-xl font-bold mb-2">ICpEP Student Edition - TIP QC Chapter </h2>         
-        </div>
+      </div>
+
+      {/* Bottom Part */}
+      <div className=" py-20 text-left text-gray-900 mt-4 pl-20 pr-20 mb-20">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
         
         {/* Column 1 Lower */}
@@ -60,7 +51,7 @@ const StudentOA = () => {
             alt="Placeholder"
             className="mb-4 w-full h-auto"
           />
-          <h2 className="text-xl font-bold mb-2">Department Student Council</h2>
+          <h2 className="text-xl font-bold mb-2">Alumni Assistance</h2>
           
         </div>
         {/* Column 2 Lower */}
@@ -70,19 +61,15 @@ const StudentOA = () => {
             alt="Placeholder"
             className="mb-4 w-full h-auto"
           />
-          <h2 className="text-xl font-bold mb-2">Supreme Student Council</h2>
+          <h2 className="text-xl font-bold mb-2">Connect With Us</h2>
           
         </div>
       </div>
-      
-    </div>
-      
-
-     
 
       
+      </div>
     </div>
   );
 };
 
-export default StudentOA;
+export default Alumni;

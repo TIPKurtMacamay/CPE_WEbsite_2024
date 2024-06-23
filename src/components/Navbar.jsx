@@ -14,7 +14,7 @@ const Navbar = () => {
       <nav className="fixed w-full top-0 z-10">
         <div className="bg-green-700 h-1 w-full"></div> {/* Green line on top */}
         <div className="bg-[#1E1E1E] opacity-100">
-          <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+          <div className="max-w-6xl mx-auto px-2 sm:px-6 lg:px-8">
             <div className="relative flex items-center justify-between h-16">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button */}
@@ -59,15 +59,12 @@ const Navbar = () => {
                   </svg>
                 </button>
               </div>
-              <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+              <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-center">
                 <div className="flex-shrink-0">
                   <img className="h-14 w-15" src={logo} alt="CPE Logo" />
                 </div>
-                <h1 className="ml-3 text-white text-m font-bold my-3.5">
-                  COMPUTER ENGINEERING
-                </h1>
                 <div className="hidden sm:block sm:ml-6 my-2">
-                  <div className="flex space-x-4">
+                  <div className="flex space-x-4 justify-center">
                     <Link to="/" className="navbarlink">
                       Home
                     </Link>
@@ -83,15 +80,15 @@ const Navbar = () => {
                     <Link to="/studentoa" className="navbarlink">
                       Student O&A
                     </Link>
-                    <a href="#" className="navbarlink">
+                    <Link to="/studentachievers" className="navbarlink">
                       Student Achievers
-                    </a>
-                    <a href="#" className="navbarlink">
+                    </Link>
+                    <Link to="/community" className="navbarlink">
                       Community
-                    </a>
-                    <a href="#" className="navbarlink">
+                    </Link>
+                    <Link to="/alumni" className="navbarlink">
                       Alumni
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -113,18 +110,18 @@ const Navbar = () => {
               <Link to="/research" className="navbarmobilelink">
                 Research
               </Link>
-              <a href="#" className="navbarmobilelink">
+              <Link to="/studentoa" className="navbarmobilelink">
                 Student O&A
-              </a>
-              <a href="#" className="navbarmobilelink">
+              </Link>
+              <Link to="/studentachievers" className="navbarmobilelink">
                 Student Achievers
-              </a>
-              <a href="#" className="navbarmobilelink">
+              </Link>
+              <Link to="/community" className="navbarmobilelink">
                 Community
-              </a>
-              <a href="#" className="navbarmobilelink">
+              </Link>
+              <Link to="/alumni" className="navbarmobilelink">
                 Alumni
-              </a>
+              </Link>
             </div>
           </div>
         </div>

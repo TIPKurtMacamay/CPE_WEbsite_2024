@@ -9,6 +9,7 @@ import CHED1 from "../assets/ched.png";
 import PACUCOA1 from "../assets/pacucoa.png";
 import PTC1 from "../assets/ptc.png";
 import ABET1 from "../assets/abet.png";
+import CPEVID from "../assets/CPE_vid.mp4"
 
 const Hero = () => {
   return (
@@ -79,6 +80,13 @@ const Hero = () => {
         </div>
       </div>
 
+      {/* Video */}
+      <div className="flex justify-center items-center mt-5">
+        <video className="w-full max-w-3xl" controls>
+          <source src={CPEVID} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
       
       <div className="mt-4 md:mt-0">
         {/* Border */}
@@ -156,7 +164,17 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      {/* Border */}
+        <div className="w-full bg-green-900 h-[10px]" />
+
+        {/* Title */}
+        <div className="w-full bg-black h-[50px] flex items-center">
+          <h1 className="text-white text-l text-wrap text-center md:text-2xl font-bold m-auto">
+            National and International Accreditations
+          </h1>
+        </div>
     </div>
+    
   );
 };
 

@@ -31,8 +31,18 @@ const Research = () => {
         </div>
       </div>
 
+      {/* Border */}
+      <div className="w-full bg-green-900 h-[10px]" />
+
+      {/* Title */}
+      <div className="w-full bg-black h-[50px] flex items-center">
+        <h1 className="text-white text-l text-wrap text-center md:text-2xl font-bold m-auto">
+          Project Design Compendium
+        </h1>
+      </div>
+
       {/* Bottom Part */}
-      <div className=" py-20 text-left text-gray-700 pl-20 pr-20 mb-20">
+      <div className=" py-10 text-left text-gray-700 pl-20 pr-20 mb-5">
         <h6>
           Welcome to our digital repository of groundbreaking research, crafted
           by the ingenious minds of computer engineering students. Dive into the
@@ -160,6 +170,67 @@ const Research = () => {
         </div>
         {/*  */}
       </div>
+
+      {/* Border */}
+      <div className="w-full bg-green-900 h-[10px]" />
+
+      {/* Title */}
+      <div className="w-full bg-black h-[50px] flex items-center">
+        <h1 className="text-white text-l text-wrap text-center md:text-2xl font-bold m-auto">
+          Funded Projects
+        </h1>
+      </div>
+
+      <div className="py-20 px-10 bg-gray-100">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+        <div className="relative w-full rounded-lg overflow-hidden shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl">
+          <img
+            src="https://via.placeholder.com/400x300"
+            alt="Placeholder"
+            className="w-full h-64 object-cover"
+          />
+          <div className="mt-4 text-left p-5">
+            <span className="text-gray-900 text-3xl font-semibold">Funded Project 1</span>
+          </div>
+        </div>
+        
+        <div className="relative w-full rounded-lg overflow-hidden shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl">
+          <img
+            src="https://via.placeholder.com/400x300"
+            alt="Placeholder"
+            className="w-full h-64 object-cover"
+          />
+          <div className="mt-4 text-left p-5">
+            <span className="text-gray-900 text-3xl font-semibold">Funded Project 2</span>
+          </div>
+        </div>
+
+        <div className="relative w-full rounded-lg overflow-hidden shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl">
+          <img
+            src="https://via.placeholder.com/400x300"
+            alt="Placeholder"
+            className="w-full h-64 object-cover"
+          />
+          <div className="mt-4 text-left p-5">
+            <span className="text-gray-900 text-3xl font-semibold">Funded Project 3</span>
+          </div>
+        </div>
+
+        <div className="relative w-full rounded-lg overflow-hidden shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl">
+          <img
+            src="https://via.placeholder.com/400x300"
+            alt="Placeholder"
+            className="w-full h-64 object-cover"
+          />
+          <div className="mt-4 text-left p-5">
+            <span className="text-gray-900 text-3xl font-semibold">Funded Project 4</span>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+    
+      
     </div>
   );
 };
