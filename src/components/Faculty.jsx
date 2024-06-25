@@ -42,9 +42,10 @@ const Faculty = () => {
 
       <Tabs>
         <Tab label="Program Chair">
-        <div className="grid grid-cols-1 md:w-[1530] mx-[5%]">
+        <div className="grid grid-cols-1 md:w-[1530 ] mx-[5%]">
+
         {/* Maam Venal */}
-        <div className="justify-center items-center md:items-start bg-[url('./assets/paperbg.png')]">
+        <div className="justify-center items-center md:items-start md:mx-[200px] bg-[url('./assets/paperbg.png')]">
           <div className="block md:flex my-10 px-14">
             <div className="flex justify-center items-center w-[265px]">
               <img className="h-full" src={MaamVenal} alt="" />
@@ -213,7 +214,7 @@ const Faculty = () => {
         </Tab>
         <Tab label="Staff">
           {/* Maam Myco */}
-        <div className='grid grid-cols-1 md:w-[1530] mx-[5%]'>
+        <div className='grid grid-cols-1 md:w-[1530] md:mx-[500px]'>
           <div className="justify-center items-center md:items-start bg-[url('./assets/paperbg.png')]">
             <div className="block md:flex my-10 px-14">
               <div className="flex justify-center items-center w-[265px]">

@@ -94,10 +94,10 @@ const About = () => {
       <div className="w-full bg-green-900 h-[10px]" />
 
       {/* Title */}
-      <div className="w-full bg-black h-[50px] flex items-center">
-        <h1 className="text-white text-l text-wrap text-center md:text-2xl font-bold m-auto">
+      <div className="text-center py-4 bg-black text-white">
+        <h3 className="text-2xl font-semibold">
           Career Opportunities
-        </h1>
+        </h3>
       </div>
 
       <div className="py-20">
@@ -150,10 +150,10 @@ const About = () => {
       <div className="w-full bg-green-900 h-[10px]" />
 
       {/* Title */}
-      <div className="w-full bg-black h-[50px] flex items-center">
-        <h1 className="text-white text-l text-wrap text-center md:text-2xl font-bold m-auto">
+      <div className="text-center py-4 bg-black text-white">
+        <h3 className="text-2xl font-semibold">
           Facilities and Equipments
-        </h1>
+        </h3>
       </div>
 
       <div className="py-20">
