@@ -7,7 +7,6 @@ import SirRichard from "../assets/Sir Richard.png";
 import MaamVerlyn from "../assets/Maam Verlyn.png";
 import SirRoman from "../assets/Sir Roman.png";
 import MaamMenchie from "../assets/Maam Menchie.png";
-import SirTaylar from "../assets/Sir Taylar.png";
 import MaamVenal from "../assets/Maam Venal.png";
 import MaamMyco from "../assets/Maam Myco.png"
 
@@ -43,9 +42,10 @@ const Faculty = () => {
 
       <Tabs>
         <Tab label="Program Chair">
-        <div className="grid grid-cols-1 md:w-[1530] mx-[5%]">
+        <div className="grid grid-cols-1 md:w-[1530 ] mx-[5%]">
+
         {/* Maam Venal */}
-        <div className="justify-center items-center md:items-start bg-[url('./assets/paperbg.png')]">
+        <div className="justify-center items-center md:items-start md:mx-[200px] bg-[url('./assets/paperbg.png')]">
           <div className="block md:flex my-10 px-14">
             <div className="flex justify-center items-center w-[265px]">
               <img className="h-full" src={MaamVenal} alt="" />
@@ -208,35 +208,13 @@ const Faculty = () => {
             </ul>
           </div>
         </div>
-        <div className="facultyCARD">
-          <img src={SirTaylar} alt="" />
-          <div>
-            <h1>Dr. Jonathan V. Taylar</h1>
-
-            <h3>Doctor of Engineering specialized in CpE</h3>
-            <h4>T.I.P. QC, 2021</h4>
-
-            <h3>M.Sc. in Computer Science</h3>
-            <h4>AMA University, 2008</h4>
-
-            <h3>Bachelor of Science in CpE</h3>
-            <h4>AMA Computer College, 2006</h4>
-
-            <h3>Area of Specialization and Research Interests:</h3>
-            <ul>
-              <li>
-                Software Design and Engineering, Machine Learning, Deep
-                Learning, Networking, Advanced Systems Administration, DevOps
-              </li>
-            </ul>
-          </div>
-        </div>
+        
       </div>
           </div>
         </Tab>
         <Tab label="Staff">
           {/* Maam Myco */}
-        <div className='grid grid-cols-1 md:w-[1530] mx-[5%]'>
+        <div className='grid grid-cols-1 md:w-[1530] md:mx-[500px]'>
           <div className="justify-center items-center md:items-start bg-[url('./assets/paperbg.png')]">
             <div className="block md:flex my-10 px-14">
               <div className="flex justify-center items-center w-[265px]">

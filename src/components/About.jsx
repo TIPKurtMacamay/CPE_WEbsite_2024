@@ -35,62 +35,224 @@ const About = () => {
       <div className="bg-green-700 h-1 w-full py-2">
       <div className="text-center py-4 bg-black text-white">
         <h3 className="text-2xl font-semibold">
-          OUTLINE
+          PROGRAM DETAILS
         </h3>
       </div>
       </div>
 
       {/* Bottom Part */}
-      <div className=" py-20 text-left text-gray-700 mt-4 pl-20 pr-20 mb-20">
-      <p>
+      <div className=" py-20 text-left text-gray-900 mt-4 pl-20 pr-20 mb-20">
+      <h4 >
           Computer Engineering is a profession that applies engineering principles and methodologies in the analysis, design, implementation and management of hardware, software and the integration of both.
-        </p>
+        </h4>
         <br />
-        <p>
+        <h4 >
           The program includes courses in computer hardware, system development and design, microelectronics and embedded systems, data communication and network administration, and software development and design.
-        </p>
+        </h4>
         <br />
         <br />
         <h2><strong>PROGRAM EDUCATIONAL OBJECTIVES</strong></h2>
         <br />
-        <p>The Computer Engineering program has adopted the following educational objectives.</p>
-        <p>Three to five years after graduation, the Computer Engineering alumni shall:</p>
+        <h4 >The Computer Engineering program has adopted the following educational objectives.</h4>
+        <h4 >Three to five years after graduation, the Computer Engineering alumni shall:</h4>
         <br />
-        <p>• have advanced their practice or achievement in the field of Computer Engineering and/or other endeavors or advocacies supported by their acquired computer engineering education;</p>
-        <p>• strive to be globally competitive through</p>
-        <p>1. living by the TIP mission values, pursuing continuing education, and practicing continuous quality improvement in their personal lives;</p>
-        <p>2. continuously scanning, adopting, and building on the best practices in their field.</p>
+        <h4 >• have advanced their practice or achievement in the field of Computer Engineering and/or other endeavors or advocacies supported by their acquired computer engineering education;</h4>
+        <h4 >• strive to be globally competitive through</h4>
+        <h4 >1. living by the TIP mission values, pursuing continuing education, and practicing continuous quality improvement in their personal lives;</h4>
+        <h4 >2. continuously scanning, adopting, and building on the best practices in their field.</h4>
         <br />
         <br />
         <h2><strong>STUDENT OUTCOMES</strong></h2>
         <br />
-        <p>By the time of graduation, students will be able to:</p>
-        <p>a. apply knowledge of mathematics, science, and engineering to solve complex engineering problems;</p>
-        <p>b. identify, formulate, and solve complex engineering problems;</p>
-        <p>c. solve complex engineering problems by designing systems, components, or processes to meet specifications within realistic constraints such as economic, environmental, cultural, social, societal, political, ethical, health and safety, manufacturability, and sustainability in accordance with standards;</p>
-        <p>d. design and conduct experiments, as well as to analyze, and interpret data, and synthesize information to provide valid conclusions for investigating complex problems;</p>
-        <p>e. use the techniques, skills, and modern engineering tools necessary for engineering practice in complex engineering activities;</p>
-        <p>f. apply knowledge of contemporary issues and the consequent responsibilities relevant to professional engineering practice;</p>
-        <p>g. understand the impact of professional engineering solutions in societal and environmental contexts and demonstrate knowledge of and need for sustainable development;</p>
-        <p>h. apply principles of ethics and commit to professional ethics and responsibilities;</p>
-        <p>i. function effectively as an individual, and as a member or leader in diverse teams and in multidisciplinary settings;</p>
-        <p>j. communicate effectively on complex engineering activities with various communities including engineering experts and society at large using appropriate levels of discourse;</p>
-        <p>k. demonstrate knowledge and understanding of engineering and management principles and apply these to one’s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments;</p>
-        <p>l. recognize the need for, and prepare to engage in lifelong learning.</p>
+        <h4 >By the time of graduation, students will be able to:</h4>
+        <h4 >a. apply knowledge of mathematics, science, and engineering to solve complex engineering problems;</h4>
+        <h4 >b. identify, formulate, and solve complex engineering problems;</h4>
+        <h4 >c. solve complex engineering problems by designing systems, components, or processes to meet specifications within realistic constraints such as economic, environmental, cultural, social, societal, political, ethical, health and safety, manufacturability, and sustainability in accordance with standards;</h4>
+        <h4 >d. design and conduct experiments, as well as to analyze, and interpret data, and synthesize information to provide valid conclusions for investigating complex problems;</h4>
+        <h4 >e. use the techniques, skills, and modern engineering tools necessary for engineering practice in complex engineering activities;</h4>
+        <h4 >f. apply knowledge of contemporary issues and the consequent responsibilities relevant to professional engineering practice;</h4>
+        <h4 >g. understand the impact of professional engineering solutions in societal and environmental contexts and demonstrate knowledge of and need for sustainable development;</h4>
+        <h4 >h. apply principles of ethics and commit to professional ethics and responsibilities;</h4>
+        <h4 >i. function effectively as an individual, and as a member or leader in diverse teams and in multidisciplinary settings;</h4>
+        <h4 >j. communicate effectively on complex engineering activities with various communities including engineering experts and society at large using appropriate levels of discourse;</h4>
+        <h4 >k. demonstrate knowledge and understanding of engineering and management principles and apply these to one’s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments;</h4>
+        <h4 >l. recognize the need for, and prepare to engage in lifelong learning.</h4>
         <br />
         <br />
         <h2><strong>Effective SY 2018-2019, the following Student Outcomes of the Computer Engineering Program will apply:</strong></h2>
         <br />
-        <p>1. identify, formulate, and solve complex engineering problems by applying knowledge and principles of engineering, science, and mathematics.</p>
-        <p>2. apply engineering design to produce solutions that meet specified needs with consideration of public health, safety, welfare, global, cultural, social, environmental, and economic factors, in accordance with standards appropriate to the discipline.</p>
-        <p>3. communicate effectively on complex engineering activities with various communities including engineering experts and society at large using appropriate levels of discourse.</p>
-        <p>4. recognize ethical and professional responsibilities in engineering situations and make informed judgments, which must consider the impact of engineering solutions in global, economic, environmental, and societal contexts.</p>
-        <p>5. function effectively on a team whose members together provide leadership, create a collaborative and inclusive environment, establish goals, plan tasks, and meet objectives by applying knowledge of engineering and management principles.</p>
-        <p>6. develop and conduct appropriate experimentation, analyze and interpret data, and use engineering judgment to draw conclusions.</p>
-        <p>7. acquire and apply new knowledge as needed, using appropriate learning strategies.</p>
+        <h4 >1. identify, formulate, and solve complex engineering problems by applying knowledge and principles of engineering, science, and mathematics.</h4>
+        <h4 >2. apply engineering design to produce solutions that meet specified needs with consideration of public health, safety, welfare, global, cultural, social, environmental, and economic factors, in accordance with standards appropriate to the discipline.</h4>
+        <h4 >3. communicate effectively on complex engineering activities with various communities including engineering experts and society at large using appropriate levels of discourse.</h4>
+        <h4 >4. recognize ethical and professional responsibilities in engineering situations and make informed judgments, which must consider the impact of engineering solutions in global, economic, environmental, and societal contexts.</h4>
+        <h4 >5. function effectively on a team whose members together provide leadership, create a collaborative and inclusive environment, establish goals, plan tasks, and meet objectives by applying knowledge of engineering and management principles.</h4>
+        <h4 >6. develop and conduct appropriate experimentation, analyze and interpret data, and use engineering judgment to draw conclusions.</h4>
+        <h4 >7. acquire and apply new knowledge as needed, using appropriate learning strategies.</h4>
       </div>
 
+      {/* Border */}
+      <div className="w-full bg-green-900 h-[10px]" />
+
+      {/* Title */}
+      <div className="text-center py-4 bg-black text-white">
+        <h3 className="text-2xl font-semibold">
+          Career Opportunities
+        </h3>
+      </div>
+
+      <div className="py-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-20">
+        <div className="relative w-full h-64">
+          <img
+            src="https://via.placeholder.com/400x300"
+            alt="Placeholder"
+            className="w-full h-full object-cover rounded-lg"
+          />
+          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+            <span className="text-white text-2xl font-bold">Data Engineer/Scientist</span>
+          </div>
+        </div>
+        
+        <div className="relative w-full h-64">
+          <img
+            src="https://via.placeholder.com/400x300"
+            alt="Placeholder"
+            className="w-full h-full object-cover rounded-lg"
+          />
+          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+            <span className="text-white text-2xl font-bold">Software Engineer/Developer</span>
+          </div>
+        </div>
+        <div className="relative w-full h-64">
+          <img
+            src="https://via.placeholder.com/400x300"
+            alt="Placeholder"
+            className="w-full h-full object-cover rounded-lg"
+          />
+          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+            <span className="text-white text-2xl font-bold">System Administrator</span>
+          </div>
+        </div>
+        <div className="relative w-full h-64">
+          <img
+            src="https://via.placeholder.com/400x300"
+            alt="Placeholder"
+            className="w-full h-full object-cover rounded-lg"
+          />
+          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+            <span className="text-white text-2xl font-bold">Cybersecurity Engineer</span>
+          </div>
+        </div>
+      </div>
+    </div>
       
+      {/* Border */}
+      <div className="w-full bg-green-900 h-[10px]" />
+
+      {/* Title */}
+      <div className="text-center py-4 bg-black text-white">
+        <h3 className="text-2xl font-semibold">
+          Facilities and Equipments
+        </h3>
+      </div>
+
+      <div className="py-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-20">
+        <div className="relative w-full h-64">
+          <img
+            src="https://via.placeholder.com/400x300"
+            alt="Placeholder"
+            className="w-full h-full object-cover rounded-lg"
+          />
+          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+            <span className="text-white text-2xl font-bold">Computer Laboratories</span>
+          </div>
+        </div>
+        
+        <div className="relative w-full h-64">
+          <img
+            src="https://via.placeholder.com/400x300"
+            alt="Placeholder"
+            className="w-full h-full object-cover rounded-lg"
+          />
+          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+            <span className="text-white text-2xl font-bold">Microcontroller Laboratories</span>
+          </div>
+        </div>
+
+        <div className="relative w-full h-64">
+          <img
+            src="https://via.placeholder.com/400x300"
+            alt="Placeholder"
+            className="w-full h-full object-cover rounded-lg"
+          />
+          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+            <span className="text-white text-2xl font-bold">Workshop</span>
+          </div>
+        </div>
+        <div className="relative w-full h-64">
+          <img
+            src="https://via.placeholder.com/400x300"
+            alt="Placeholder"
+            className="w-full h-full object-cover rounded-lg"
+          />
+          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+            <span className="text-white text-2xl font-bold">AutoCAD Laboratories</span>
+          </div>
+        </div>
+        <div className="relative w-full h-64">
+          <img
+            src="https://via.placeholder.com/400x300"
+            alt="Placeholder"
+            className="w-full h-full object-cover rounded-lg"
+          />
+          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+            <span className="text-white text-2xl font-bold">3D Printing Room</span>
+          </div>
+        </div>
+        <div className="relative w-full h-64">
+          <img
+            src="https://via.placeholder.com/400x300"
+            alt="Placeholder"
+            className="w-full h-full object-cover rounded-lg"
+          />
+          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+            <span className="text-white text-2xl font-bold">MAC Laboratories</span>
+          </div>
+        </div>
+        <div className="relative w-full h-64">
+          <img
+            src="https://via.placeholder.com/400x300"
+            alt="Placeholder"
+            className="w-full h-full object-cover rounded-lg"
+          />
+          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+            <span className="text-white text-2xl font-bold">Defense Room</span>
+          </div>
+        </div>
+        <div className="relative w-full h-64">
+          <img
+            src="https://via.placeholder.com/400x300"
+            alt="Placeholder"
+            className="w-full h-full object-cover rounded-lg"
+          />
+          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+            <span className="text-white text-2xl font-bold">TechnoCore Laboratories</span>
+          </div>
+        </div>
+        <div className="relative w-full h-64">
+          <img
+            src="https://via.placeholder.com/400x300"
+            alt="Placeholder"
+            className="w-full h-full object-cover rounded-lg"
+          />
+          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+            <span className="text-white text-2xl font-bold">Printed Circuit Laboratories</span>
+          </div>
+        </div>
+        
+      </div>
+    </div>
     </div>
   );
 };

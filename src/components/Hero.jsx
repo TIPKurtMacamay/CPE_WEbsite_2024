@@ -9,6 +9,7 @@ import CHED1 from "../assets/ched.png";
 import PACUCOA1 from "../assets/pacucoa.png";
 import PTC1 from "../assets/ptc.png";
 import ABET1 from "../assets/abet.png";
+import CPEVID from "../assets/CPE_vid.mp4"
 
 const Hero = () => {
   return (
@@ -37,9 +38,9 @@ const Hero = () => {
             </h3>
           </div>
           <div className="flex space-x-4 mt-4">
-            <img className="h-14 w-14" src={tiplogo} alt="TIP Logo" />
-            <img className="h-14 w-14" src={cpelogo} alt="CPE Logo" />
-            <img className="h-14 w-14" src={ssclogo} alt="SSC Logo" />
+            <img className="h-14 w-14 " src={tiplogo} alt="TIP Logo" />
+            <img className="h-14 w-14 " src={cpelogo} alt="CPE Logo" />
+            <img className="h-14 w-14 " src={ssclogo} alt="SSC Logo" />
           </div>
         </div>
       </div>
@@ -53,13 +54,13 @@ const Hero = () => {
       </div>
 
       {/* Bottom Part */}
-      <div className=" py-20">
+      <div className=" pt-20">
         {/* Columns */}
-        <div className="container mx-auto flex flex-col md:flex-row justify-center items-center px-4">
+        <div className="container mx-auto flex flex-col md:flex-row justify-center items-center px-4 ">
           {/* Text */}
-          <div className="md:w-1/2 p-4">
-            <div className="bg-white p-4 rounded-xl shadow-lg">
-              <p className="text-lg text-gray-700 text-justify">
+          <div className="md:w-1/2 p-4 ">
+            <div className="bg-white p-4 rounded-xl shadow-lg ">
+              <h6 className="text-lg text-gray-700 text-justify">
                 Computer Engineering is a profession that applies engineering
                 principles and methodologies in the analysis, design,
                 implementation and management of hardware, software and the
@@ -67,17 +68,37 @@ const Hero = () => {
                 hardware, system development and design, microelectronics and
                 embedded systems, data communication and network administration,
                 and software development and design (source: tip.edu.ph).
-              </p>
+              </h6>
             </div>
           </div>
           {/* Pictures Slider */}
-          <div className="md:w-1/2 p-4 flex justify-center">
-            <div className="bg-white p-4 rounded-xl shadow-lg">
+          <div className="md:w-1/2 p-4 flex justify-center  rounded-xl">
+            <div className="bg-green-700 p-2 rounded-xl shadow-lg">
               <img className="rounded-xl" src={profhero} alt="Faculty and Staff" />
             </div>
           </div>
         </div>
       </div>
+      
+      <div className=" py-20">
+        {/* Columns */}
+        <div className="container mx-auto flex flex-col md:flex-row justify-center items-center px-4">
+          
+        {/* Video */}
+        <div className="flex justify-center items-center bg-green-700 p-2 rounded-xl">
+          <video className="w-full h-full object-cover rounded-lg" controls autoPlay muted>
+            <source src={CPEVID} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+         
+          
+        </div>
+      </div>
+
+     {/* Video */}
+    
 
       
       <div className="mt-4 md:mt-0">
@@ -85,78 +106,80 @@ const Hero = () => {
         <div className="w-full bg-green-900 h-[10px]" />
 
         {/* Title */}
-        <div className="w-full bg-black h-[50px] flex items-center">
-          <h1 className="text-white text-l text-wrap text-center md:text-2xl font-bold m-auto">
+        <div className="text-center py-4 bg-black text-white">
+          <h3 className="text-2xl font-semibold">
             National and International Accreditations
-          </h1>
+          </h3>
         </div>
 
         <div className="flex flex-col items-center">
           <div className="bg-green-600 w-[80%] h-[2px] m-2 md:my-4" />
-          <p className="text-[10px] md:text-xs text-center w-[70%]">
+          <h7 className="text-[10px] md:text-xs text-center w-[70%]">
             Experience Computer Engineering education at its finest! The
             Computer Engineering department at the Technological Insitute of the
             Philippines - Quezon City ensures quality education that is
             recognized locally and internationally.
-          </p>
+          </h7>
         </div>
 
         {/* Accreditaions */}
         <div>
-          <div className="items-center grid grid-row-3 md:grid-cols-3 gap-4">
-            <div className="flex items-center md:block">
+          <div className="items-center grid grid-row-3 md:grid-cols-3 gap-1 md:mx-auto px-10 pt-10 ">
+            <div className="sm:flex items-center md:block">  
               <img className="card " src={CHED1} alt="" />
               <div className="text-center mt-2 h-[90px]">
                 <h2>The Commission on Higher Education</h2>
-                <p className="text-sm mt-4 mx-8">
+                <h7 className="text-sm mt-4 mx-8">
                   Center of Excellence since 2015 Center of Development from
                   2009 to 2014
-                </p>
+                </h7>
               </div>
             </div>
-            <div className="flex items-center md:block">
+            <div className="sm:flex items-center md:block">
               <img className="card " src={PACUCOA1} alt="" />
               <div className="text-center mt-2 h-[90px]">
                 <h2>Philippine Association of Colleges and Universities Commission
                   on Accreditation</h2>
-                <p className="text-sm mt-4 mx-8">
+                <h7 className="text-sm mt-4 mx-8">
                   Level 4 Accreditation Accredited since 2014
-                </p>
+                </h7>
               </div>
             </div>
-            <div className="flex items-center md:block">
+            <div className="sm:flex items-center md:block">
               <img className="card " src={PTC1} alt="" />
               <div className="text-center mt-2 h-[90px]">
                 <h2>The Commission on Higher Education</h2>
-                <p className="text-sm mt-4 mx-8">
+                <h7 className="text-sm mt-4 mx-8">
                   Accredited since 2015
-                </p>
+                </h7>
               </div>
             </div>
           </div>
         </div>
 
         {/* Abet */}
-        <div className="my-12">
-          <div className="items-center object-contain md:grid grid-cols-2 gap-4">
-            <img className="mt-5" src={ABET1} alt="" />
-            <div>
+        <div className="md:mx-[300px] px-10">
+          <div className="items-center object-contain md:grid grid-cols-2 mt-5">
+            <img className="" src={ABET1} alt="" />
+            <div className="mb-10">
               <h1 className="text-2xl text-green-700 md:text-4xl">
                 International Accreditation
               </h1>
               <h2 className="text-sm md:text-l">Accredited by ABET since 2010</h2>
-              <p className="  mt-4 mr-10 text-justify text-xs md:text-sm">
+              <h7 className="   mr-10 text-justify text-xs md:text-sm">
                 What is ABET? "The Accreditation Board for Engineering and
                 Technology, Inc. is a non-governmental organization that
                 accredits post-secondary education programs in engineering,
                 engineering technology, computing, and applied and natural
                 sciences." (ABET.org)
-              </p>
+              </h7>
             </div>
           </div>
         </div>
       </div>
+      
     </div>
+    
   );
 };
 

@@ -28,7 +28,7 @@
     font-size: clamp(1rem, 3vw, 2rem);
   }
   .card {
-    @apply bg-white shadow-xl rounded-3xl md:m-auto p-2 size-[200px] md:size-[300px];
+    @apply bg-white shadow-xl rounded-3xl md:m-auto p-2 size-[200px] md:size-[300px] mx-auto;
   }
   .icon {
     @apply m-2;

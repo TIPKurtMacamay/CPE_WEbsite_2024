@@ -31,9 +31,19 @@ const Research = () => {
         </div>
       </div>
 
+      {/* Border */}
+      <div className="w-full bg-green-900 h-[10px]" />
+
+      {/* Title */}
+      <div className="text-center py-4 bg-black text-white">
+        <h3 className="text-2xl font-semibold">
+          Project Design Compendium
+        </h3>
+      </div>
+
       {/* Bottom Part */}
-      <div className=" py-20 text-left text-gray-700 pl-20 pr-20 mb-20">
-        <p>
+      <div className=" py-10 text-left text-gray-700 pl-20 pr-20 mb-5">
+        <h6>
           Welcome to our digital repository of groundbreaking research, crafted
           by the ingenious minds of computer engineering students. Dive into the
           realm where innovation meets ingenuity, as we showcase a myriad of
@@ -41,16 +51,16 @@ const Research = () => {
           intelligence to cybersecurity, from hardware design to software
           development, our students have delved into every facet of the
           computing world to unravel its mysteries and unlock its potential.
-        </p>
+        </h6>
         <br />
-        <p>
+        <h6>
           In this virtual hub of exploration and discovery, you'll find a
           collection of projects that not only demonstrate technical prowess but
           also embody a spirit of creativity and problem-solving. Each research
           endeavor represents a journey of exploration, where students have
           harnessed their knowledge, skills, and passion to address real-world
           challenges and pioneer novel solutions.{" "}
-        </p>
+        </h6>
       </div>
 
       {/* Researches */}
@@ -63,7 +73,7 @@ const Research = () => {
                 Design of an Augmented Reality-based Learning Simulation for
                 Individuals with Dyscalculia
               </h1>
-              <p>A.Y. 2023 2024</p>
+              <h7>A.Y. 2023 2024</h7>
             </div>
           </div>
         </div>
@@ -76,7 +86,7 @@ const Research = () => {
                 Design of an Augmented Reality-based Learning Simulation for
                 Individuals with Dyscalculia
               </h1>
-              <p>A.Y. 2023 2024</p>
+              <h7>A.Y. 2023 2024</h7>
             </div>
           </div>
         </div>
@@ -89,7 +99,7 @@ const Research = () => {
                 Design of an Augmented Reality-based Learning Simulation for
                 Individuals with Dyscalculia
               </h1>
-              <p>A.Y. 2023 2024</p>
+              <h7>A.Y. 2023 2024</h7>
             </div>
           </div>
         </div>
@@ -102,7 +112,7 @@ const Research = () => {
                 Design of an Augmented Reality-based Learning Simulation for
                 Individuals with Dyscalculia
               </h1>
-              <p>A.Y. 2023 2024</p>
+              <h7>A.Y. 2023 2024</h7>
             </div>
           </div>
         </div>
@@ -115,7 +125,7 @@ const Research = () => {
                 Design of an Augmented Reality-based Learning Simulation for
                 Individuals with Dyscalculia
               </h1>
-              <p>A.Y. 2023 2024</p>
+              <h7>A.Y. 2023 2024</h7>
             </div>
           </div>
         </div>
@@ -128,7 +138,7 @@ const Research = () => {
                 Design of an Augmented Reality-based Learning Simulation for
                 Individuals with Dyscalculia
               </h1>
-              <p>A.Y. 2023 2024</p>
+              <h7>A.Y. 2023 2024</h7>
             </div>
           </div>
         </div>
@@ -141,7 +151,7 @@ const Research = () => {
                 Design of an Augmented Reality-based Learning Simulation for
                 Individuals with Dyscalculia
               </h1>
-              <p>A.Y. 2023 2024</p>
+              <h7>A.Y. 2023 2024</h7>
             </div>
           </div>
         </div>
@@ -154,12 +164,73 @@ const Research = () => {
                 Design of an Augmented Reality-based Learning Simulation for
                 Individuals with Dyscalculia
               </h1>
-              <p>A.Y. 2023 2024</p>
+              <h7>A.Y. 2023 2024</h7>
             </div>
           </div>
         </div>
         {/*  */}
       </div>
+
+      {/* Border */}
+      <div className="w-full bg-green-900 h-[10px]" />
+
+      {/* Title */}
+      <div className="text-center py-4 bg-black text-white">
+        <h3 className="text-2xl font-semibold">
+          Funded Projects
+        </h3>
+      </div>
+
+      <div className="py-20 px-10 bg-gray-100">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+        <div className="relative w-full rounded-lg overflow-hidden shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl">
+          <img
+            src="https://via.placeholder.com/400x300"
+            alt="Placeholder"
+            className="w-full h-64 object-cover"
+          />
+          <div className="mt-4 text-left p-5">
+            <span className="text-gray-900 text-3xl font-semibold">Funded Project 1</span>
+          </div>
+        </div>
+        
+        <div className="relative w-full rounded-lg overflow-hidden shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl">
+          <img
+            src="https://via.placeholder.com/400x300"
+            alt="Placeholder"
+            className="w-full h-64 object-cover"
+          />
+          <div className="mt-4 text-left p-5">
+            <span className="text-gray-900 text-3xl font-semibold">Funded Project 2</span>
+          </div>
+        </div>
+
+        <div className="relative w-full rounded-lg overflow-hidden shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl">
+          <img
+            src="https://via.placeholder.com/400x300"
+            alt="Placeholder"
+            className="w-full h-64 object-cover"
+          />
+          <div className="mt-4 text-left p-5">
+            <span className="text-gray-900 text-3xl font-semibold">Funded Project 3</span>
+          </div>
+        </div>
+
+        <div className="relative w-full rounded-lg overflow-hidden shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl">
+          <img
+            src="https://via.placeholder.com/400x300"
+            alt="Placeholder"
+            className="w-full h-64 object-cover"
+          />
+          <div className="mt-4 text-left p-5">
+            <span className="text-gray-900 text-3xl font-semibold">Funded Project 4</span>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+    
+      
     </div>
   );
 };
