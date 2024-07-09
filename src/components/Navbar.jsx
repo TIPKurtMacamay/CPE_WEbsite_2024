@@ -66,28 +66,28 @@ const Navbar = () => {
                 <div className="hidden sm:block sm:ml-6 my-2">
                   <div className="flex space-x-4 justify-center">
                     <Link to="/" className="navbarlink">
-                      Home
+                      <span className="truncate">Home</span>
                     </Link>
                     <Link to="/about" className="navbarlink">
-                      About
+                      <span className="truncate">About</span>
                     </Link>
                     <Link to="/faculty" className="navbarlink">
-                      Faculty & Staff
+                      <span className="truncate">Faculty & Staff</span>
                     </Link>
                     <Link to="/research" className="navbarlink">
-                      Research
+                      <span className="truncate">Research</span>
                     </Link>
                     <Link to="/studentoa" className="navbarlink">
-                      Student O&A
+                      <span className="truncate">Student O&A</span>
                     </Link>
                     <Link to="/studentachievers" className="navbarlink">
-                      Student Achievers
+                      <span className="truncate">Student Achievers</span>
                     </Link>
                     <Link to="/community" className="navbarlink">
-                      Community
+                      <span className="truncate">Community</span>
                     </Link>
                     <Link to="/alumni" className="navbarlink">
-                      Alumni
+                      <span className="truncate">Alumni</span>
                     </Link>
                   </div>
                 </div>
