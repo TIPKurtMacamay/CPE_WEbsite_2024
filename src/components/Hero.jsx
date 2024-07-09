@@ -124,8 +124,8 @@ const Hero = () => {
 
         {/* Accreditaions */}
         <div>
-          <div className="items-center grid grid-row-3 md:grid-cols-3 gap-4">
-            <div className="flex items-center md:block">
+          <div className="items-center grid grid-row-3 md:grid-cols-3 gap-1 md:mx-auto px-10 pt-10 ">
+            <div className="sm:flex items-center md:block">  
               <img className="card " src={CHED1} alt="" />
               <div className="text-center mt-2 h-[90px]">
                 <h2>The Commission on Higher Education</h2>
