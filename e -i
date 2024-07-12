@@ -1,0 +1,237 @@
+[33mcommit 4dbc38aeba32a97a999197f2a03fe5e8ebf6a527[m[33m ([m[1;36mHEAD -> [m[1;32mfinal-integration[m[33m, [m[1;31morigin/final-integration[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: TIPKurtMacamay <qkdlmacamay@tip.edu.ph>
+Date:   Wed Jul 10 02:31:58 2024 +0800
+
+    Updated Layout
+
+[33mcommit 00c4f526a9d1b4c2b7eb11a0d312f59872e6e9db[m
+Author: carlodominiquetolin <carlodominiquetolin@gmail.com>
+Date:   Wed Jul 10 01:06:39 2024 +0800
+
+    Layout Updted
+
+[33mcommit 2f49e6575954d432dcd68f64766c6f9741663443[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Tue Jun 25 12:49:44 2024 +0800
+
+    updated Content -Kurt
+
+[33mcommit faf8a3f0fed491d472a195bcf3c06c1f9a0603b4[m
+Merge: 476d96e 1d0e949
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Mon Jun 24 01:53:14 2024 +0800
+
+    Merge branch 'final-integration' of github.com:TIPKurtMacamay/CPE_WEbsite_2024 into final-integration
+
+[33mcommit 476d96e2bbe82dbb323503b9b46f544ed3297614[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Mon Jun 24 01:49:10 2024 +0800
+
+    Updated Layout and Content -Kurt
+
+[33mcommit 1d0e949311c23a3a9d2fd80240fa5461ac0edb62[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 03:41:27 2024 +0800
+
+    Delete .github/workflows/npm.yml
+
+[33mcommit 5d4fdf23e02baf4d03d50aa9057f49fb56091a84[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 02:31:44 2024 +0800
+
+    Create npm.yml
+
+[33mcommit 3bf3996c339b2fb2ef984fec08c431da5a554e8e[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 02:31:10 2024 +0800
+
+    Update test.yml
+
+[33mcommit 07442aa5df1048341ff35deabe9961a8126240ef[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 02:24:12 2024 +0800
+
+    Create test.yml
+
+[33mcommit 9bdb7b2335d324bdfc6441d3abd65c62ee017398[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 02:22:53 2024 +0800
+
+    Delete .github/workflows/main.yml
+
+[33mcommit bf434d042b0e51f86ba5b4a5c4aa9f3c9f5ea287[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 02:22:38 2024 +0800
+
+    Delete .github/workflows/CI.yml
+
+[33mcommit b841c9a1ce4804406a8f202f9696956879b54611[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 02:02:45 2024 +0800
+
+    Create main.yml
+
+[33mcommit 03c3c737964d615d838a9d8c6623efc4266ba1b2[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 01:48:55 2024 +0800
+
+    Create CI.yml
+
+[33mcommit 052eb10e44b72b062e976a1e15a5fbc689bc6393[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 01:43:34 2024 +0800
+
+    Delete .github/workflows/main.yml
+
+[33mcommit 84e34090295093ac19bda52472124e5e0783a619[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 01:38:58 2024 +0800
+
+    Update jest.config.js
+
+[33mcommit 943d80575d4ca66f4c48a5b851b772720dc9d9a8[m
+Merge: a5a323e 7646863
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 01:36:22 2024 +0800
+
+    Merge branch 'final-integration' of github.com:TIPKurtMacamay/CPE_WEbsite_2024 into final-integration
+
+[33mcommit a5a323e3f55ed03de195086c28726f144e9db8de[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 01:35:44 2024 +0800
+
+    Updated version of package.json
+
+[33mcommit 7646863e2f4538906baaed873097186a760c9eaf[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 01:32:47 2024 +0800
+
+    Create main.yml
+
+[33mcommit 37c9dbbb05183f191c7d0689aacb3f1d80600505[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 01:31:38 2024 +0800
+
+    Updated version
+
+[33mcommit 55af7f7b55136488d91db6b005490ff7c4135070[m
+Merge: e50f2e1 c5cea39
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 01:28:59 2024 +0800
+
+    Merge branch 'final-integration' of github.com:TIPKurtMacamay/CPE_WEbsite_2024 into final-integration
+
+[33mcommit e50f2e18216711bd850a5bb0ee9086a9c6b621c8[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 01:28:44 2024 +0800
+
+    Updated integration
+
+[33mcommit c5cea3916e2cc64a97a5364e73346d9d28af2037[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 01:26:52 2024 +0800
+
+    Delete .github/workflows/CI.yml
+
+[33mcommit 0e4edc82839b55ea4cdaa9a57361e1c7cf7eb6a3[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 01:22:48 2024 +0800
+
+    Update package.json
+
+[33mcommit 8f885cbf04c4a707d5f0e78948b5e44d5abf61bc[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 01:19:53 2024 +0800
+
+    Update CI.yml
+
+[33mcommit 6292619bf7ce4db6ecc1cf5e29751ab43bc68ac0[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 01:15:45 2024 +0800
+
+    Create CI.yml
+
+[33mcommit 1ee8999c61dc901a7a70ff0e78a5cbccd244f3a3[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 01:15:06 2024 +0800
+
+    Delete .github/workflows/CI.yml
+
+[33mcommit 9f4a9d9c434afa2b17f6bc96473ef96fa00a452c[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 01:14:22 2024 +0800
+
+    Create CI.yml
+
+[33mcommit 9f5e2c9cf87050e4fa0c472b87d1fe5ed8bb9361[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 01:13:56 2024 +0800
+
+    Delete .github/workflows/main.yml
+
+[33mcommit 999f571f56dbc770b4606d45ca0d167795c51469[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 01:12:24 2024 +0800
+
+    Create CI.yml
+
+[33mcommit 18fb8f2c54a0a4cd32af8790ba336bb632e682e1[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 01:09:19 2024 +0800
+
+    Delete .github/workflows/CI.yml
+
+[33mcommit 53108aa5f215743eafa03700f2af53094bd1f0f7[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 01:07:45 2024 +0800
+
+    Updated integration
+
+[33mcommit e7ae3b7a49d9a49eac72136156457f3351f26ea9[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 01:04:21 2024 +0800
+
+    Update README.md
+
+[33mcommit a843bf346b32994ac053605e1962743147e8fe71[m
+Merge: 5a7071c 1a155d4
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 01:02:41 2024 +0800
+
+    Merge branch 'final-integration' of github.com:TIPKurtMacamay/CPE_WEbsite_2024 into final-integration
+
+[33mcommit 5a7071c42a955238fe91822e1b9aaf9088a1538e[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 00:59:46 2024 +0800
+
+    Updated integration
+
+[33mcommit 1a155d4e996d8e7e3c77dcbe1c5a5c83c12e4249[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 00:58:59 2024 +0800
+
+    Update CI.yml
+
+[33mcommit 3680373efda23e1314534b1d58409b6db4dbf98b[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 00:48:51 2024 +0800
+
+    Update README.md
+
+[33mcommit 7889e7095bcb9239992f78dd7675ad59da8e461f[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 00:33:04 2024 +0800
+
+    Update CI.yml
+
+[33mcommit 0534e3f5e7ca59c5fa4386d016db95b5acf5e28a[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Wed May 29 00:25:41 2024 +0800
+
+    Create CI.yml
+
+[33mcommit 5d85f85861087f3ce9a7087521dd0c0af09ffce5[m
+Author: TIPKurtMacamay <133735418+TIPKurtMacamay@users.noreply.github.com>
+Date:   Tue May 28 23:30:42 2024 +0800
+
+    Update REA

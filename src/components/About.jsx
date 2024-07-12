@@ -94,56 +94,60 @@ const About = () => {
       <div className="w-full bg-green-900 h-[10px]" />
 
       {/* Title */}
-      <div className="text-center py-4 bg-black text-white">
-        <h3 className="text-2xl font-semibold">
-          Career Opportunities
-        </h3>
-      </div>
+<div className="text-center py-4 bg-black text-white">
+  <h3 className="text-2xl font-semibold">
+    Career Opportunities
+  </h3>
+</div>
 
-      <div className="py-20">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-20">
-        <div className="relative w-full h-64">
-          <img
-            src="https://via.placeholder.com/400x300"
-            alt="Placeholder"
-            className="w-full h-full object-cover rounded-lg"
-          />
-          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
-            <span className="text-white text-2xl font-bold">Data Engineer/Scientist</span>
-          </div>
-        </div>
-        
-        <div className="relative w-full h-64">
-          <img
-            src="https://via.placeholder.com/400x300"
-            alt="Placeholder"
-            className="w-full h-full object-cover rounded-lg"
-          />
-          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
-            <span className="text-white text-2xl font-bold">Software Engineer/Developer</span>
-          </div>
-        </div>
-        <div className="relative w-full h-64">
-          <img
-            src="https://via.placeholder.com/400x300"
-            alt="Placeholder"
-            className="w-full h-full object-cover rounded-lg"
-          />
-          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
-            <span className="text-white text-2xl font-bold">System Administrator</span>
-          </div>
-        </div>
-        <div className="relative w-full h-64">
-          <img
-            src="https://via.placeholder.com/400x300"
-            alt="Placeholder"
-            className="w-full h-full object-cover rounded-lg"
-          />
-          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
-            <span className="text-white text-2xl font-bold">Cybersecurity Engineer</span>
-          </div>
-        </div>
+<div className="py-20">
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-4 md:px-20">
+    <div className="relative w-full h-64">
+      <img
+        src="https://via.placeholder.com/400x300"
+        alt="Placeholder"
+        className="w-full h-full object-cover rounded-lg"
+      />
+      <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+        <span className="text-white text-2xl font-bold">System Administrator</span>
       </div>
+    </div>
+    
+    <div className="relative w-full h-64">
+      <img
+        src="https://via.placeholder.com/400x300"
+        alt="Placeholder"
+        className="w-full h-full object-cover rounded-lg"
+      />
+      <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+        <span className="text-white text-2xl font-bold">Software Engineer/Developer</span>
+      </div>
+    </div>
+    
+    <div className="relative w-full h-64">
+      <img
+        src="https://via.placeholder.com/400x300"
+        alt="Placeholder"
+        className="w-full h-full object-cover rounded-lg"
+      />
+      <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+        <span className="text-white text-2xl font-bold">Data Engineer/Scientist</span>
+      </div>
+    </div>
+    
+    <div className="relative w-full h-64">
+      <img
+        src="https://via.placeholder.com/400x300"
+        alt="Placeholder"
+        className="w-full h-full object-cover rounded-lg"
+      />
+      <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+        <span className="text-white text-2xl font-bold">Cybersecurity Engineer</span>
+      </div>
+    </div>
+  </div>
+
+
     </div>
       
       {/* Border */}
@@ -157,102 +161,119 @@ const About = () => {
       </div>
 
       <div className="py-20">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-20">
-        <div className="relative w-full h-64">
-          <img
-            src="https://via.placeholder.com/400x300"
-            alt="Placeholder"
-            className="w-full h-full object-cover rounded-lg"
-          />
-          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
-            <span className="text-white text-2xl font-bold">Computer Laboratories</span>
-          </div>
-        </div>
-        
-        <div className="relative w-full h-64">
-          <img
-            src="https://via.placeholder.com/400x300"
-            alt="Placeholder"
-            className="w-full h-full object-cover rounded-lg"
-          />
-          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
-            <span className="text-white text-2xl font-bold">Microcontroller Laboratories</span>
-          </div>
-        </div>
+        {/* Facilities Cards start here */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 md:px-20">
 
-        <div className="relative w-full h-64">
-          <img
-            src="https://via.placeholder.com/400x300"
-            alt="Placeholder"
-            className="w-full h-full object-cover rounded-lg"
-          />
-          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
-            <span className="text-white text-2xl font-bold">Workshop</span>
+          {/* Computer Laboratories card */}
+          <div className="relative w-full h-64">
+            <img
+              src="https://via.placeholder.com/400x300"
+              alt="Placeholder"
+              className="w-full h-full object-cover rounded-lg"
+            />
+            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+              <span className="text-white text-2xl font-bold">Computer Laboratories</span>
+            </div>
           </div>
-        </div>
-        <div className="relative w-full h-64">
-          <img
-            src="https://via.placeholder.com/400x300"
-            alt="Placeholder"
-            className="w-full h-full object-cover rounded-lg"
-          />
-          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
-            <span className="text-white text-2xl font-bold">AutoCAD Laboratories</span>
+
+          {/* Microcontroller Laboratories card*/}
+          <div className="relative w-full h-64">
+            <img
+              src="https://via.placeholder.com/400x300"
+              alt="Placeholder"
+              className="w-full h-full object-cover rounded-lg"
+            />
+            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+              <span className="text-white text-2xl font-bold">Microcontroller Laboratories</span>
+            </div>
           </div>
-        </div>
-        <div className="relative w-full h-64">
-          <img
-            src="https://via.placeholder.com/400x300"
-            alt="Placeholder"
-            className="w-full h-full object-cover rounded-lg"
-          />
-          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
-            <span className="text-white text-2xl font-bold">3D Printing Room</span>
+
+          {/* Workshop Laboratories card*/}
+          <div className="relative w-full h-64">
+            <img
+              src="https://via.placeholder.com/400x300"
+              alt="Placeholder"
+              className="w-full h-full object-cover rounded-lg"
+            />
+            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+              <span className="text-white text-2xl font-bold">Workshop</span>
+            </div>
           </div>
-        </div>
-        <div className="relative w-full h-64">
-          <img
-            src="https://via.placeholder.com/400x300"
-            alt="Placeholder"
-            className="w-full h-full object-cover rounded-lg"
-          />
-          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
-            <span className="text-white text-2xl font-bold">MAC Laboratories</span>
+          
+          {/* AutoCAD Laboratories card*/}
+          <div className="relative w-full h-64">
+            <img
+              src="https://via.placeholder.com/400x300"
+              alt="Placeholder"
+              className="w-full h-full object-cover rounded-lg"
+            />
+            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+              <span className="text-white text-2xl font-bold">AutoCAD Laboratories</span>
+            </div>
           </div>
-        </div>
-        <div className="relative w-full h-64">
-          <img
-            src="https://via.placeholder.com/400x300"
-            alt="Placeholder"
-            className="w-full h-full object-cover rounded-lg"
-          />
-          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
-            <span className="text-white text-2xl font-bold">Defense Room</span>
+
+          {/* 3D Printing Room card*/}
+          <div className="relative w-full h-64">
+            <img
+              src="https://via.placeholder.com/400x300"
+              alt="Placeholder"
+              className="w-full h-full object-cover rounded-lg"
+            />
+            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+              <span className="text-white text-2xl font-bold">3D Printing Room</span>
+            </div>
           </div>
-        </div>
-        <div className="relative w-full h-64">
-          <img
-            src="https://via.placeholder.com/400x300"
-            alt="Placeholder"
-            className="w-full h-full object-cover rounded-lg"
-          />
-          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
-            <span className="text-white text-2xl font-bold">TechnoCore Laboratories</span>
+
+          {/* MAC Laboratories card*/}
+          <div className="relative w-full h-64">
+            <img
+              src="https://via.placeholder.com/400x300"
+              alt="Placeholder"
+              className="w-full h-full object-cover rounded-lg"
+            />
+            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+              <span className="text-white text-2xl font-bold">MAC Laboratories</span>
+            </div>
           </div>
-        </div>
-        <div className="relative w-full h-64">
-          <img
-            src="https://via.placeholder.com/400x300"
-            alt="Placeholder"
-            className="w-full h-full object-cover rounded-lg"
-          />
-          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
-            <span className="text-white text-2xl font-bold">Printed Circuit Laboratories</span>
+
+          {/* Defense Room card*/}
+          <div className="relative w-full h-64">
+            <img
+              src="https://via.placeholder.com/400x300"
+              alt="Placeholder"
+              className="w-full h-full object-cover rounded-lg"
+            />
+            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+              <span className="text-white text-2xl font-bold">Defense Room</span>
+            </div>
           </div>
+
+          {/* TechnoCore Laboratories card*/}
+          <div className="relative w-full h-64">
+            <img
+              src="https://via.placeholder.com/400x300"
+              alt="Placeholder"
+              className="w-full h-full object-cover rounded-lg"
+            />
+            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+              <span className="text-white text-2xl font-bold">TechnoCore Laboratories</span>
+            </div>
+          </div>
+
+          {/* Printed Circuit Laboratories card*/}
+          <div className="relative w-full h-64">
+            <img
+              src="https://via.placeholder.com/400x300"
+              alt="Placeholder"
+              className="w-full h-full object-cover rounded-lg"
+            />
+            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+              <span className="text-white text-2xl font-bold">Printed Circuit Laboratories</span>
+            </div>
+          </div>
+          
         </div>
-        
       </div>
-    </div>
     </div>
   );
 };
