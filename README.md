@@ -57,57 +57,34 @@ npm view tailwindcss version
 ```
 ---
 
-## Website Sections
-
-
-
-#### Home 
-- Computer Engineering Department Introduction
-- National and International Accreditations
-![image](https://github.com/TIPKurtMacamay/CPE_WEbsite_2024/assets/133735418/39c73169-0f4d-40f6-8662-e757ef245c19)
-
-#### About
-- Computer Engineering Department Introduction
-- National and International Accreditations
-![image](https://github.com/TIPKurtMacamay/CPE_WEbsite_2024/assets/133735418/addab80c-492e-4702-886a-ac5fe5da0b67)
-
-#### Faculty & Staff
-- Program Chair
-- Full-Time Faculty
-- Staff
-![image](https://github.com/TIPKurtMacamay/CPE_WEbsite_2024/assets/133735418/60bc5612-731f-4df1-8de8-d8f38da8976e)
-
-#### Research
-- Recent Project Designs
-![image](https://github.com/TIPKurtMacamay/CPE_WEbsite_2024/assets/133735418/af81f3ec-cef2-49cf-befa-3212dd5a728f)
-
-#### Student O&A
-- Student Organization
-- Student Activities
-![image](https://github.com/TIPKurtMacamay/CPE_WEbsite_2024/assets/133735418/e1a6f464-025f-49fa-9246-7121a0f01365)
-
-#### Student Achievers (No Content Yet)
-
-#### Community (No Content Yet)
-
-#### Alumni (No Content Yet)
 
 ---
 ## Missing and Not Updated Information
-- About (Program Scorecard and Program Specialization)
-- Research (Recent Project Design Title - Not Updated)
+- Career Opportunities (Photos)
+- Facilities and Equipments (Photos)
+- Full-Time Faculty(Updated information)
+- Project Design Compendium (Updated information)
+- Funded Projects (Photos and Updated information)
+- Department and Supreme Student Council (Photos) 
+- Activities (More photos and Updated information)
+- Outreach Programs (Photos and Updated information)
+- Alumni Details (Photos and Updated information)
+
 
 ---
 ## Project Components (jsx files)
 
 #### All Javascript XML (.jsx) files are in the src folder. All images used in the project were in the assets folder 
 - Hero.jsx (Home section)
+- Alumni.jsx (Alumni section)
+- Community.jsx (Community.jsx)
 - About.jsx (About section
 - Faculty.jsx (Faculty & Staff)
 - Research.jsx (Research)
 - StudentOA.jsx (Student O&A)
 - Footer.jsx (Footer of each section)
 - Tabs.jsx (Tabs for Faculty & Staff)
+- StudentAchievers.jsx (Student Achievers and Activities section)
 - App.jsx (Route all sections or jsx files for the Navbar)
 
 
